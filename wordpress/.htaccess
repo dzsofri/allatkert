@@ -1,0 +1,16 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END WordPress
+# BEGIN Ecwid
+# The directives (lines) between "BEGIN Ecwid" and "END Ecwid" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^\.well-known/(.+)$ index.php?ec-well-known=$1 [L]
+</IfModule>
+# END Ecwid
